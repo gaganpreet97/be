@@ -1,0 +1,39 @@
+.previewCloseButton {
+  z-index: 10;
+  cursor: pointer;
+  position: absolute;
+  padding: 0;
+  top: 15px;
+  right: 31px;
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  background-position: center center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.15);
+  background-image: url(/slate-web/images/buttons/Close_32.png);
+  border: none;
+  display: block;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color .1s ease-in-out;
+  -moz-transition: background-color .1s ease-in-out;
+  transition: background-color .1s ease-in-out; }
+  .previewCloseButton:hover {
+    background-color: rgba(0, 0, 0, 0.4); }
+
+.embedded-link-viewer-visible .previewCloseButton {
+  display: none; }
+
+/* Embedded Link Placeholder */
+.embedded-link-wrapper iframe {
+  position: relative;
+  background-color: #e8ebed;
+  background-image: url(/slate-web/luca-editor/assets/stylesheets/author/icons/embedded-link-placeholder.png);
+  background-size: 10%;
+  background-position: center;
+  background-repeat: no-repeat; }
